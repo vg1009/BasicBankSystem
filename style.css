@@ -1,0 +1,786 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+#Logo{
+    position: relative;
+    left: -20%;
+
+}
+#Logo img{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    margin: 5px;
+
+
+}
+#Logo a{
+    text-decoration: none;
+    color: gold;
+    font-size: x-large;
+    margin: 2px;
+    padding: 2px ;
+    font-size: 28px;
+}
+
+#Nav_Bar ul{
+    display: flex;
+    flex-direction: row;
+    color: cyan;
+    background-color: black;
+    justify-content: center;
+}
+
+#Cato{
+    padding: 18px;
+    list-style: none;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    position: relative;
+    left: 4%;
+}
+
+#Cato li a{
+    text-decoration: none;
+    color: #048654;
+
+}
+
+#Cato li a:hover{
+    color: aliceblue;
+    transition: 0.5sec;
+}
+
+
+#Cato li{
+    margin: 1px;
+    padding: 10px;
+    font-size: 17px;
+}
+.logoname{
+  font-size: x-large;
+}
+/* 2nd pg*/
+#sec2 img{
+    width: 100%;
+    height: 52vh;
+}
+
+
+
+
+#frontSection{
+    height: 88px;
+    background-color: darkgrey;
+    padding-top: 5px;
+}
+
+
+#transferSection{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.card{
+    height: 150px;
+    width: 30%;
+}
+
+.card-box{
+    height: 200px;
+}
+
+.card-img{
+    height: 250px;
+}
+
+.btn{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    border: blue solid 1px;
+    padding: 1px;
+    margin: 0;
+    color: cyan;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+/* bottom section ends here */
+/* main section ends here */
+
+
+/* footer section starts here*/
+#footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: wheat;
+  text-align: center;
+}
+
+
+      #transferSection{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        padding: 15px;
+        position: relative;
+    }
+
+    .card{
+        padding: 10px 10px;
+        height: 100px;
+        width: 31%;
+    }
+
+    .card-box{
+        height: 220px;
+    }
+
+    .card-img{
+        height: 170px;
+        padding: 2px;
+
+    }
+
+    .btn{
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: antiquewhite;
+        border:  1px solid black;
+        padding: 40px;
+        color:black;
+    }
+
+    .btn a{
+        justify-content: center;
+        justify-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder
+
+        ;
+    }
+    .btn a:hover{
+        transition: 0.5s;
+        color: tomato;
+
+        text-decoration: none;
+    }
+
+
+  /*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --first-color: #069C54;
+  --first-color-alt: #048654;
+  --title-color: #393939;
+  --text-color: #707070;
+  --text-color-light: #A6A6A6;
+  --body-color: #FBFEFD;
+  --container-color: #FFFFFF;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes ==========*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 768px){
+  :root{
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*========== BASE ==========*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+h1,h2,h3,p,ul{
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*========== CLASS CSS ==========*/
+.section{
+  padding: 4rem 0 2rem;
+}
+
+
+
+.section-title{
+
+  font-weight: bolder;
+  color: white;
+  font-size: 2em;
+  margin-bottom: var(--mb-3);
+  font-family: 'Zen Tokyo Zoo', cursive;
+
+}
+
+.section-subtitle{
+  display: block;
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.icoon
+{
+  width: 100px;
+  height: 100px;
+}
+
+/*========== LAYOUT ==========*/
+.bd-container{
+  max-width: 960px;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+.bd-grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.l-header{
+
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--body-color);
+}
+
+/*========== NAV ==========*/
+
+.nav{
+  max-width: 1024px;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+}
+.nav__logo{
+  width: 75px;
+    height: 75px;
+    position: relative;
+    top: 0px;
+   margin-left: -80px;
+}
+p{
+  font-family:sans-serif;
+}
+@media screen and (max-width: 768px){
+  .nav__menu{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0 1rem;
+    text-align: center;
+    background-color: transparent;
+    transition: .4s;
+    box-shadow: 0 4px 4px rgba(0,0,0,.1);
+    border-radius: 0 0 1rem 1rem;
+    /* z-index: var(--z-fixed); */
+  }
+}
+
+.nav__item{
+  margin-bottom: var(--mb-2);
+}
+
+.nav__link, .nav__logo, .nav__toggle{
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+
+}
+
+.nav__logo:hover{
+  color: var(--first-color);
+
+}
+.nav__link{
+  transition: .3s;
+  color:#048654;
+
+}
+
+.nav__link:hover{
+  color: gold;
+
+}
+
+.nav__toggle{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/* Show menu */
+.show-menu{
+  top: var(--header-height);
+}
+
+/* Active menu */
+.active-link{
+  color: var(--first-color);
+}
+
+/* Change background header */
+.scroll-header{
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+
+
+.scrolltop:hover{
+  background-color: var(--first-color-alt);
+}
+
+.scrolltop__icon{
+  font-size: 1.8rem;
+  color: var(--body-color);
+}
+
+/* Show scrolltop */
+.show-scroll{
+  visibility: visible;
+  bottom: 1.5rem;
+}
+
+/*========== HOME ==========*/
+.home__container{
+  height: calc(100vh - var(--header-height));
+  align-content: center;
+  margin-top:200px;
+  text-align: center;
+
+}
+span{
+  color:#888888 ;
+
+}
+.home__title{
+  font-size: var(--biggest-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+  font-size: 400%;
+  font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.home__subtitle{
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-4);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.home__img{
+  width: 300px;
+  justify-self: center;
+  border-radius: 20px;
+}
+
+/*========== BUTTONS ==========*/
+.button{
+  display: inline-block;
+  background-color: #888888;
+  color: #FFF;
+  padding: .75rem 1rem;
+  border: transparent;
+
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.button:hover{
+  background-color: #000;
+  color:#FFF;
+}
+
+/*========== ABOUT ==========*/
+.about__data{
+  text-align: center;
+}
+
+
+.about__description{
+  margin-bottom: var(--mb-3);
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+
+/*========== SERVICES ==========*/
+.services__container{
+  row-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.services__content{
+  text-align: center;
+}
+
+.services__img{
+  width: 64px;
+  height: 64px;
+  fill: var(--first-color);
+  margin-bottom: var(--mb-2);
+}
+
+.services__title{
+  font-size: var(--h3-font-size);
+  color: #E6E6E6;
+  margin-bottom: var(--mb-1);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.services__description{
+  padding: 0 1.5rem;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#ab{
+  font-size: xx-large;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  color: #888888;
+}
+
+
+/*========== CONTACT ==========*/
+.contact__container{
+  text-align: center;
+}
+
+.contact__description{
+  margin-bottom: var(--mb-3);
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+/*========== FOOTER ==========*/
+.footer__container{
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem;
+}
+
+.footer__logo{
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.footer__description{
+  display: block;
+  font-size: var(--small-font-size);
+  margin: .25rem 0 var(--mb-3);
+}
+
+.footer__social{
+  font-size: 1.5rem;
+  color: var(--title-color);
+  margin-right: var(--mb-2);
+}
+
+.footer__title{
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-2);
+}
+
+.footer__link{
+  display: inline-block;
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
+}
+
+.footer__link:hover{
+  color: var(--first-color);
+}
+
+.footer__copy{
+  text-align: center;
+  font-size:larger;
+  color: var(--text-color-light);
+  margin-top: 3.5rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+/*========== MEDIA QUERIES ==========*/
+@media screen and (min-width: 576px){
+  .home__container,
+  .about__container,
+  .app__container{
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+
+  .about__data, .about__initial,
+  .app__data, .app__initial,
+  .contact__container, .contact__initial{
+    text-align: initial;
+  }
+
+  .about__img, .app__img{
+    width: 380px;
+    order: -1;
+  }
+
+  .contact__container{
+    grid-template-columns: 1.75fr 1fr;
+    align-items: center;
+  }
+  .ftransfer__button{
+    justify-self: center;
+  }
+
+}
+
+@media screen and (min-width: 768px){
+  body{
+    margin: 0;
+  }
+
+  .section{
+    padding-top: 8rem;
+  }
+
+  .nav{
+    height: calc(var(--header-height) + 1.5rem);
+  }
+  .nav__list{
+    display: flex;
+  }
+  .nav__item{
+    margin-left: var(--mb-5);
+    margin-bottom: 0;
+  }
+  .nav__toggle{
+    display: none;
+  }
+
+
+
+  .home__container{
+    height: 100vh;
+    justify-items: center;
+  }
+
+
+  .services__container,
+  .menu__container{
+    margin-top: var(--mb-6);
+  }
+
+
+}
+
+@media screen and (min-width: 960px){
+  .bd-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__img{
+    width: 500px;
+  }
+
+  .about__container,
+  .app__container{
+    column-gap: 7rem;
+  }
+}
+
+/* For tall screens on mobiles y desktop*/
+@media screen and (min-height: 721px) {
+    .home__container {
+        height: 640px;
+    }
+
+}
+
+
+
+table {
+  margin: 0 auto;
+  font-size: var(--normal-font-size);
+  border: 2px solid var(--first-color);
+}
+th,td {
+            font-weight: bold;
+            border: 1px solid var(--first-color);
+            padding: 10px;
+            text-align: center;
+        }
+        td {
+          border: 1px solid var(--first-color);
+          font-weight: lighter;
+      }
+
+      .my-info{
+        padding: 2rem 5rem;
+    }
+
+    .btn-info{
+        display: inline-block;
+        background-color: #3c3f3de1!important;
+        color: #FFF!important;
+        padding: .75rem 1rem;
+        border-radius: .5rem;
+        transition: .3s;
+    }
+
+    .btn-info:hover{
+        background-color: #2d9b16d0!important;
+    }
+
+    .table-title{
+      font-weight: bold;
+      color: #fff !important;
+      background-color: #e5ecf8;
+  }
+  .table-1{
+    background-color:mintcream ;
+}
+
+.table-2{
+    background-color: #fff;
+
+}
+.my-info{
+  margin-top: 80px;
+  padding: 2rem 5rem;
+
+}
+.navbar{
+  background: #495464;
+  width:100%;
+  margin-top: -13em;
+  position:fixed;
+  z-index:5;
+  overflow: hidden;
+}
+.nav-item{
+  padding:10px 10px;
+}
+.nav-link{
+  background-color: transparent;
+  transition: background-color 0.5s;
+  border-radius: 5px;
+
+}
+.logoname{
+  color:#fff;
+  padding:10px 5px;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 1.5em;
+  font-weight: 500;
+
+}
+.nav-link:hover{
+  background-color: black;
+  color:#fff;
+
+}
+
+.body{
+  margin-top: 4em;
+}
+#ab{
+  font-size: xx-large;
+}
+body{
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  /* background-color: var(--body-color); */
+  background-image: url("wallhaven.png");
+  background-position: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+  line-height: 1.6;
+}

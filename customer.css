@@ -1,0 +1,239 @@
+*{
+	margin:0;
+	padding:0;
+
+    /* background-color: grey; */
+}
+
+/* navbar starts here */
+#logo{
+    position: relative;
+    left: -40%;
+}
+
+#logo img{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 0px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    color:#048654;
+    background-color: #fff;
+    justify-content: center;
+}
+#navbar:hover{
+    color:#048654;
+}
+
+#menu{
+    padding: 10px;
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    margin-right: 0;
+    position: relative;
+    left: 70%;
+}
+#menu:hover{
+    color: gold;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #2d9b16d0;
+
+
+}
+
+#menu li{
+    margin: 0px;
+    padding: 10px;
+
+}
+/* navbar ends here */
+
+/* the main section starts here */
+#main
+{
+    position: relative;
+    top: -16px;
+  	text-align: center;
+    background-color: lightgrey;
+}
+.my-info{
+    padding: rem 5rem;
+    margin-top: 4em;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: #888888 !important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.btn-info:hover{
+    background-color: black !important;
+}
+/* main section ends here */
+.nav__link{
+    transition: .3s;
+    color:#048654;
+    text-align: right;
+
+  }
+  .nav__item{
+      margin-left: 20em;
+  }
+
+  .nav__link:hover{
+    color: gold;
+
+  }
+  @media screen and (max-width: 768px){
+    .nav__menu{
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      padding: 1.5rem 0 1rem;
+      text-align: center;
+      background-color: transparent;
+      transition: .4s;
+      box-shadow: 0 4px 4px rgba(0,0,0,.1);
+      border-radius: 0 0 1rem 1rem;
+      /* z-index: var(--z-fixed); */
+    }
+  }
+  .nav{
+    max-width: 1024px;
+    position: fixed;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+  }
+  .nav__logo{
+    width: 75px;
+      height: 75px;
+      position: relative;
+      top: 0px;
+     margin-left: -80px;
+  }
+  p{
+    font-family:sans-serif;
+  }
+  @media screen and (max-width: 768px){
+    .nav__menu{
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      padding: 1.5rem 0 1rem;
+      text-align: center;
+      background-color: transparent;
+      transition: .4s;
+      box-shadow: 0 4px 4px rgba(0,0,0,.1);
+      border-radius: 0 0 1rem 1rem;
+      /* z-index: var(--z-fixed); */
+    }
+  }
+
+  .nav__item{
+    margin-bottom: var(--mb-2);
+  }
+
+  .nav__link, .nav__logo, .nav__toggle{
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+
+  }
+
+  .nav__logo:hover{
+    color: var(--first-color);
+
+  }
+  .nav__link{
+    transition: .3s;
+    color:#048654;
+
+  }
+
+  .nav__link:hover{
+    color: gold;
+
+  }
+
+  .nav__toggle{
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+  .ryt{
+    float: right;
+    text-align: right;
+    margin-right: 0;
+  }
+  .navbar{
+    background: #495464;;
+    width:100%;
+    margin-top:-1.5em;
+    position:fixed;
+    z-index:5;
+    overflow: hidden;
+  }
+  .nav-item{
+    padding:10px 10px;
+  }
+  .nav-link{
+    background-color: transparent;
+    transition: background-color 0.5s;
+    border-radius: 5px;
+
+  }
+  .logoname{
+    color:#fff;
+    padding:10px 5px;
+
+    font-size: 1.5em;
+    font-weight: 500;
+		font-family: 'Zen Tokyo Zoo', cursive;
+  }
+  .nav-link:hover{
+    background-color: black;
+    color:#fff;
+
+  }
+
+.footer
+{
+	background: darkgrey;
+}
+
+	.footer__copy
+	{
+		text-align: center;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+
+	}
+
+.table
+{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: lightpink;
+}
